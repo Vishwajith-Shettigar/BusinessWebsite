@@ -1,0 +1,130 @@
+
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+    /* background: url("/static/images.jpg") no-repeat center/cover; */
+
+}
+
+#navbar{
+    background-color: antiquewhite;
+    padding: 29px 4px;
+}
+
+#navbar ul{
+    display: flex;
+flex-direction: row;
+/* justify-content: center; */
+position: absolute;
+left: 113px;
+top:8px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-size: 20px;
+}
+#navbar li:hover{
+border: 3px solid wheat;
+border-radius: 33px;
+background-color: rgb(141, 41, 223);
+/* color: rgb(27, 30, 41); */
+
+}
+#navbar li a:hover{
+   
+    color: rgb(0, 0, 0);
+    
+    }
+
+#logo{
+    display: flex;
+    height:40px;
+    top:6px;
+    left: -43px;
+    position: absolute;
+}
+
+#navbar li a{
+    text-decoration: none;
+    padding: 13px 30px;
+}
+
+#navbar li{
+ list-style: none;
+ padding: 7px 11px;
+}
+
+#introsection {
+
+
+background:center/cover no-repeat url('/static/dance.jpg');
+height:400px;
+/* background-color: red; */
+justify-content: center;
+align-items: center;
+display: flex;
+flex-direction: column;
+font-size: 35px;
+
+}
+
+.headinglol{
+    font-weight: bolder;
+    font-size: larger;
+}
+
+#sponsorsection{
+    height:350px;
+    background-color: rgb(14, 71, 192);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    font-size: 35px;
+    
+}
+.one{
+    position: absolute;
+    top:960px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1em;
+}
+
+#missionsection{
+    color: aliceblue;
+    background-color: blueviolet;
+    height: 360px;
+   
+    justify-content: center;
+    align-items: center;
+    display:flex;
+
+}
+.miss{
+    font-size: 3em;
+    position: absolute;
+    top:355px;
+    color: rgb(58, 55, 61);
+
+    
+}
+.card{
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 30%;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    display: inline-block;
+    margin: 9px;
+}
+
+
+.card h3{
+    text-align: center;
+}
+
+
+#footer{
+    height: 100px;
+    background-color: rgb(22, 223, 89);
+}

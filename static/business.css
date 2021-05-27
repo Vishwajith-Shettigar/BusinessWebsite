@@ -1,0 +1,279 @@
+*{
+
+    margin:0px;
+    padding: 0px;
+    height: vh;
+    width: vw;
+}
+
+.header {
+    display: flex;
+    /* border: 2px solid black; */
+    background-color: #7952b3;
+    height: 92px;
+    
+}
+
+.logo img{
+    height: 91px;
+    width: 79px;
+    filter: invert(100%);
+}
+
+.logo {
+    
+      display: flex;
+      background-color: #7952b3;
+}
+.logo h2{
+margin-left:90px ;
+
+position: absolute;
+top:20px;    
+}
+
+
+.header ul{
+    margin: 13px 144px;
+    display: flex;
+    list-style-type: none;
+    /* width:33px; */
+    
+}
+
+.header ul li{
+    display: block;
+    background-color: white;
+    border-radius: 20px;
+    font-size: 14px;
+    /* width: 100px; */
+    padding: 7px 35px;
+    margin: 7px;
+    
+
+}
+/* .list{
+    height: 22px;
+} */
+
+
+.header ul li a{
+    color:black;
+    text-decoration:none;
+}
+ #buy{
+     display: block;
+     border-radius: 21px;
+     padding: 0px 43px;
+    margin:0px 199px;
+    
+    background-color:rgb(0, 0, 0);
+        
+}
+ #buy a{
+     display: block;
+     font-size:x-large;
+     color: white;
+     padding: 8px;
+     text-align: center;
+     justify-content: center;
+ }
+
+
+
+ 
+
+
+
+ /* WEBSITE BODY*/
+
+ /* first section */
+.sec{
+    width: vw;
+    height: vh;
+    /* border: 2px solid black; */
+    
+}
+.heading{
+    
+     width: vw;
+     height: auto;
+     display: flex;
+    justify-content: center;
+}
+ .heading h1{
+    font-family: 'Coda Caption', sans-serif;
+    color: rgb(36, 32, 36);
+    font-size:60px;
+    position: absolute;
+    top:200px;
+    left:296px;
+ }
+
+ .heading img{
+     float: right;
+     width: 722px;
+     height: 600px;
+     
+     right: -513px;
+     position: relative;
+        
+ }
+
+ .btnjoin{
+     width: vw; 
+     position: relative; 
+    left: 303px;
+    top: -173px;
+       
+
+
+    
+ }
+.btnhead{
+    justify-content: center;
+    align-items: center;
+        width: 109px;
+    height: 54px;
+    background-color: rgb(163, 108, 177);
+    border-radius: 13px;
+    border-color: cadetblue;
+    font-weight:bold;
+    font-size: 19px;
+    color: rgb(255, 255, 255);
+    font-family: 'Fjalla One', sans-serif;
+}
+
+ /* second ssection */
+
+
+ .separate1{
+     background-color: rgb(118, 26, 179);
+     width:800px;
+     height: 5px;color:white;
+     font-size: 0%;
+ }
+ .separate2{
+    background-color: rgb(118, 26, 179);
+    width:800px;
+    height: 5px;
+top:-6px;
+    position: relative;
+    right: -1089px;color:white;
+    font-size: 0%;
+}
+
+
+
+
+ .secondone{
+     background-color: rgb(255, 253, 246);
+ }
+.secondone h1{
+    position: relative;
+    left: 212px;
+    top: 100px;
+    font-family: 'Fjalla One', sans-serif;
+    color: rgb(36, 32, 36);
+    font-size:50px;
+}
+.secondone p{
+position: relative;
+left:300px;
+top:200px;
+font-size: 34px;
+
+}
+
+
+.secondone img{
+    position: relative;
+ right: -1113px;
+ top: -173px;
+ width: 722px;
+ height: 500px;
+}
+
+
+.separate3{
+    background-color: darkorchid;
+    height: 5px;
+    position: relative;
+    top:-200px;
+    width: 60%;color:white;
+    font-size: 0%;
+}
+.separate4{
+    background-color: darkorchid;
+    height: 5px;
+    position: relative;
+    top:-210px;
+    width:20%;
+    right: -1512px;
+    color:white;
+    font-size: 0%;
+}
+
+.secondtwo{
+    background-color: rgb(255, 253, 246);
+}
+.secondtwo h1{
+   position: relative;
+   left: 1020px;
+   top: 50px;
+   font-family: 'Fjalla One', sans-serif;
+   color: rgb(36, 32, 36);
+   font-size:50px;
+}
+.secondtwo p{
+position: relative;
+left:1250px;
+top:200px;
+font-size: 34px;
+
+}
+
+
+ .secondtwo img{
+   position: relative;
+right: -20px;
+top: -333px;
+width: 722px;
+height: 500px;
+}
+
+.separate5{
+    background-color: darkorchid;
+    height: 5px;
+    position: relative;
+    top:-200px;
+    width: 60%;
+    left: 40%;
+    color:white;
+    font-size: 0%;
+}
+.separate6{
+    background-color: darkorchid;
+    height: 5px;
+    position: relative;
+    top:-200px;
+    width:10%;
+    color:white;
+    font-size: 0%;
+}
+
+footer{
+    /* border:2px solid black; */
+    width: 34%;
+    position: relative;
+    left:752px;
+    justify-content: center;
+    align-items:center ;
+}
+
+
+.privacycontent
+{
+    margin: 33px;
+    padding: 5px 5px;
+}
